@@ -1,0 +1,34 @@
+{
+    "name": "Paddle Input",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "c33f24cb-e515-4cfa-9486-e90d74df6ede",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "fb3aa902-78fc-4b8f-b259-a709f80a471e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b4634d31-b72b-46d6-9377-52cd6ff7df5e",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
